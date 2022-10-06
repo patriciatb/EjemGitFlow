@@ -1,4 +1,4 @@
-package com.ufv;
+package com.ufv.ejemplo02;
 
 import java.util.Scanner;
 
@@ -6,9 +6,16 @@ public class Main {
     public static void main(String[] args) {
 
         Persona p = new Persona();
+        Perritos perro = new Perritos();
       //  p.setEdad(-1);
 
         Scanner sc = new Scanner(System.in);
+
+
+        System.out.printf("Escribe la raza del perro");
+        perro.setRaza(sc.nextLine());
+
+        //---------------------------------------------------------------------------------------------------------------
 
         System.out.printf("Escribe tu nombre:");
         p.setNombre(sc.nextLine());
