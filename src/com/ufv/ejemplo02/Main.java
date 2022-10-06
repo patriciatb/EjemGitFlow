@@ -1,4 +1,4 @@
-package com.ufv;
+package com.ufv.ejemplo02;
 
 import java.util.Scanner;
 
